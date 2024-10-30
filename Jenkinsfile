@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Pulling Repository')
       {
-        step{
+        steps{
        git branch: 'main', url: 'https://github.com/AdwaithS22/CICD1.git'
         }
         }
